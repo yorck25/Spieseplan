@@ -3,29 +3,29 @@ html, body {
     padding: 0;
     height: 100%;
     text-align: center;
-  }
-  
-  body {
-    background-color: #eceff1;
-  }
+}
 
-  a {
+body {
+    background-color: #eceff1;
+}
+
+a {
     text-decoration: none;
     font-size: 30px;
     color: #676767;
-  }
-  
-  li {
+}
+
+li {
     list-style: none;
-  }
-  
-  p {
+}
+
+p {
     font-family: 'Lato', sans-serif;
     font-size: 34px;
     color: #9c9c9c;
-  }
+}
 
-  header {
+header {
     width: 100%;
     height: 100px;
     position: fixed;
@@ -34,33 +34,44 @@ html, body {
     background: #f3f5f7;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     z-index: 1;
-  }
-  
-  .logo {
-    width: 330px;
+}
+
+.logo {
+    margin-left: 75px;
     float: left;
-    margin: 13px 0 0 50px;
-  }
-  
-  header nav {
+    margin-top: 13px;
+    text-align: center;
+}
+
+header nav {
     float: right;
     margin: 18px 50px 0 0;
-  }
-  
-  main-nav ul li {
+}
+
+main-nav ul li {
     display: flex;
-  }
-  
-  header nav ul li {
+}
+
+header nav ul li {
     float: left;
     margin-left: 36px;
-  }
-  
-  header nav ul li a {
+}
+
+header nav ul li a {
     font-size: 34px;
-  }
-  
-  header nav ul li:hover {
-    padding-top: 1px;
+}
+
+header nav ul li:hover {
+    opacity: 0.8;
     transition: 0.3s;
-  }
+}
+
+section{
+    min-height: 100%;
+}
+
+.plan{
+    margin-top: 150px;
+    float: left;
+    margin-left: 75px;
+}

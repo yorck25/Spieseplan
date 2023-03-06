@@ -11,7 +11,7 @@ function Navbar() {
 
       <nav className="main-nav">
         <ul>
-          <a className="link" href="index.html"><li>Aktueller Plan</li></a>
+          <a className="link" href="index.html"><li>Aktueller Speiseplan</li></a>
         </ul>
       </nav>
     </header>
