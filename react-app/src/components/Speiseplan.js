@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import data from '../data/response.json';
+import './style.css'
 
 function Speiseplan() {
     const [tableData, setTableData] = useState([]);
@@ -28,8 +29,8 @@ function Speiseplan() {
     }, []);
     return (
       <div>
+        <section className="planSection">
         <div>
-          babsfsdfsdfsdf
         </div>
         <table>
           <thead>
@@ -44,7 +45,7 @@ function Speiseplan() {
           </thead>
           <tbody>
             {tableData.map((row, index) => (
-              <tr key={index}>
+                <tr key={index}>
                 <td>{row.Name}</td>
                 <td>{row.ProductName0}<br/>Price: {row.Price0}</td>
                 <td>{row.ProductName1}<br/>Price: {row.Price1}</td>
@@ -55,6 +56,7 @@ function Speiseplan() {
             ))}
           </tbody>
         </table>
+        </section>
       </div>
     );
 }
