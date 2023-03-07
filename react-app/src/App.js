@@ -5,7 +5,7 @@ import data from './data/response.json';
 function App() {
 
   const [tableData, setTableData] = useState([]);
-  
+  var price;
   useEffect(() => {
     // convert data from json file to table format
     const tableRows = data.Rows.map((row) => {
@@ -18,13 +18,11 @@ function App() {
         rowData[`Weekday${day.Weekday}`] = productId;
         rowData[`Allergens${day.Weekday}`] = product.AllergenIds;
         rowData[`ProductName${day.Weekday}`] = product.Name;
-        rowData[`ProductName${day.Weekday}`] = product.Name;
+        rowData[`Price${day.Weekday}`] = product.Price.Betrag;
 
         // rowData[`Weekday${day.Weekday}`] = day.ProductIds[0].ProductId;
-        // name = data.Products[day.ProductIds[0].ProductId].Name;
         // allergien = data.Products[day.ProductIds[0].ProductId].AllergenIds;
       });
-      //console.log(name);
       return rowData;
     });
 
@@ -50,11 +48,11 @@ function App() {
           {tableData.map((row, index) => (
             <tr key={index}>
               <td>{row.Name}</td>
-              <td>{row.ProductName0}</td>
-              <td>{row.ProductName1}</td>
-              <td>{row.ProductName2}</td>
-              <td>{row.ProductName3}</td>
-              <td>{row.ProductName4}</td>
+              <td>{row.ProductName0}<br/>Price: {row.Price0}</td>
+              <td>{row.ProductName1}<br/>Price: {row.Price1}</td>
+              <td>{row.ProductName2}<br/>Price: {row.Price2}</td>
+              <td>{row.ProductName3}<br/>Price: {row.Price3}</td>
+              <td>{row.ProductName4}<br/>Price: {row.Price4}</td>
             </tr>
           ))}
         </tbody>
