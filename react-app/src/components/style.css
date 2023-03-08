@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     height: 100%;
     text-align: center;
+    font-family: 'Lato', sans-serif;
   }
   
   body {
@@ -76,4 +77,47 @@ html, body {
     margin-top: 100px;
     float: left;
     margin-left: 75px;
+  }
+
+  .headline{
+    margin-left: -1310px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: auto;
+    max-width: auto;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  thead{
+    font-size: 32px;
+    box-shadow: 20px 13px 32px -11px rgba(148,148,148,0.62);
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 25px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  tbody tr td{
+    padding: 50px;
+  }
+  tbody{
+    box-shadow: 20px 13px 32px -11px rgba(148,148,148,0.62);
+  }
+  br{
+    height: 25px
   }
