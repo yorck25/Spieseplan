@@ -1,123 +1,176 @@
 html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-  }
-  
-  body {
-    background-color: #eceff1;
-  }
-  
-  section {
-    min-height: 100%;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  li {
-    list-style: none;
-  }
-   
-  a{
-    font-size: 30px;
-    color: #676767;
-  }
-  
-  header {
-    width: 100%;
-    height: 100px;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    background: #f3f5f7;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-  }
-  
-  #logo {
-    float: left;
-    margin-left: 75px;
-    margin-top: 30px;
-  }
-  
-  #logo img {
-    width: 100%;
-  }
-  
-  header nav {
-    float: right;
-    margin-top: 15px;
-    margin-right: 50px;
-  }
-  
-  #main-nav ul li {
-    display: flex;
-  }
-  
-  header nav ul li {
-    float: left;
-    margin-left: 36px;
-  }
-  
-  header nav ul li a {
-    font-size: 34px;
-  }
-  
-  header nav ul li:hover {
-    text-decoration: underline;
-    opacity: 0.8;
-    transition: 0.2s;
-  }
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #202a4c;
+}
 
-  .planSection{
-    margin-top: 100px;
-    float: left;
-    margin-left: 75px;
-  }
+body {
+  background-color: #eceff1;
+}
 
-  .headline{
-    margin-left: -1310px;
-  }
+section {
+  min-height: 100%;
+}
 
-  table {
-    border-collapse: collapse;
-    width: auto;
-    max-width: auto;
-    margin: 0 auto;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.4;
-    text-align: center;
-  }
+a {
+  text-decoration: none;
+}
 
-  thead{
-    font-size: 32px;
-    box-shadow: 20px 13px 32px -11px rgba(148,148,148,0.62);
-  }
+li {
+  list-style: none;
+}
+  
+a{
+  font-size: 30px;
+  color: #676767;
+}
 
-  th, td {
-    border: 1px solid #ccc;
-    padding: 25px;
-  }
+header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background: #f3f5f7;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
 
-  th {
-    background-color: #f2f2f2;
-  }
+#logo {
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+}
 
-  tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
+#logo img {
+  width: 100%;
+}
 
-  tbody tr td{
-    padding: 50px;
-  }
-  tbody{
-    box-shadow: 20px 13px 32px -11px rgba(148,148,148,0.62);
-  }
-  br{
-    height: 25px
-  }
+header nav {
+  float: right;
+  margin-top: 15px;
+  margin-right: 50px;
+}
+
+#main-nav ul li {
+  display: flex;
+}
+
+header nav ul li {
+  float: left;
+  margin-left: 36px;
+}
+
+header nav ul li a {
+  font-size: 34px;
+}
+
+header nav ul li:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
+.planSection{
+  margin-top: 100px;
+  float: left;
+  margin-left: 50px;
+  padding-bottom: 25px;
+}
+
+.headline{
+  margin-left: -1310px;
+}
+
+table {
+  border-collapse: collapse;
+  width: auto;
+  max-width: auto;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 2;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+thead{
+  font-size: 28px;
+  box-shadow: 20px 13px 32px -11px rgba(148,148,148,0.62);
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 25px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr td{
+  padding: 50px;
+}
+tbody{
+  box-shadow: 20px 13px 32px -11px rgba(148,148,148,0.62);
+}
+br{
+  height: 25px
+}
+
+#aktionName{
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.accIcon{
+  height: 36px
+}
+
+.accIcon:hover{
+  opacity: 0.8;
+}
+
+.Speise{
+  float: none;
+  max-width: 1300px;
+}
+
+.productSection{
+  padding-top: 25px;
+  font-family: 'Lato', sans-serif;
+  margin-top: -50px;
+  width: 300px;
+  height: 325px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  margin: 50px 50px 0px;
+  box-shadow: 20px 13px 32px -11px rgba(148,148,148,0.62);
+}
+
+.foodPic{
+  height: 150px;
+  border-radius: 10px;
+}
+
+.prodPrice{
+  font-weight: 600;
+  color: #9b9b9b;
+}
+
+.headline{
+  text-align: 'center';
+  margin-top: 150px;
+  margin-right: 225px;
+}
+
+.headlinePlan{
+  text-align: 'center';
+  text-align: left;
+}
