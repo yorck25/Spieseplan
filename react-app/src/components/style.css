@@ -127,6 +127,10 @@ br{
   height: 25px
 }
 
+td{
+  font-weight: 700;
+}
+
 #aktionName{
   font-weight: 700;
   font-size: 26px;
